@@ -391,7 +391,7 @@ function Curriculum() {
       title: "Career Launchpad",
       color: "#054e60",
       icon: "🚀",
-      topics: ["Full Project Build", "GitHub Portfolio", "Resume Crafting", "Mock Interviews", "Job Application Strategy"],
+      topics: ["Real Time Project Assessment", "GitHub Portfolio", "Resume Crafting", "Mock Interviews", "Job Application Strategy"],
     },
   ];
 
@@ -573,7 +573,7 @@ function CompanyTestimonials() {
         <div className="text-center mb-16 reveal">
           <div className="pill-tag inline-block mb-4">ALUMNI PLACEMENTS</div>
           <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4">
-            Where Our Students <span className="text-gradient-teal">Work</span>
+            Where Our Trainee's <span className="text-gradient-teal">Placed</span>
           </h2>
         </div>
 
@@ -656,12 +656,12 @@ function Pricing() {
           <div className="p-8 sm:p-12">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6 mb-8">
               <div>
-                <div className="text-gray-400 text-base line-through mb-1">Market Price: ₹60,000</div>
-                <div className="font-display font-bold text-5xl sm:text-6xl text-gradient-teal">₹25,000</div>
+                <div className="text-gray-400 text-base line-through mb-1">Market Price: ₹125,000</div>
+                <div className="font-display font-bold text-5xl sm:text-6xl text-gradient-teal">₹80,000</div>
                 <div className="text-gray-500 text-sm mt-1 font-medium">One-time payment — No hidden fees</div>
               </div>
               <div className="bg-[#00A2A4] text-white font-display font-bold text-xl px-6 py-3 rounded-2xl rotate-3 hover:rotate-0 transition-transform shadow-lg">
-                SAVE ₹35,000 🔥
+                SAVE ₹45,000 🔥
               </div>
             </div>
 
@@ -685,8 +685,8 @@ function Pricing() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button onClick={() => openWhatsApp("Hi! I want to enroll in the Full Stack Career Programs for ₹25,000.")} className="btn-teal text-white font-display font-bold text-lg px-10 py-4 rounded-xl flex-1 sm:flex-none shadow-lg">
-                🚀 Enroll Now — ₹25,000
+              <button onClick={() => openWhatsApp("Hi! I want to enroll in the Full Stack Career Programs for 80,000.")} className="btn-teal text-white font-display font-bold text-lg px-10 py-4 rounded-xl flex-1 sm:flex-none shadow-lg">
+                🚀 Enroll Now — ₹80,000
               </button>
               <button onClick={() => openWhatsApp("Hi! I want to know more about the Full Stack Career Programs before enrolling.")} className="btn-darkTeal text-white font-semibold text-base px-8 py-4 rounded-xl flex-1 sm:flex-none shadow-md">
                 💬 Ask a Question
@@ -737,7 +737,7 @@ function EnquiryForm() {
               {[
                 { icon: "📍", label: "Location", value: "Coimbatore, Chennai, Madurai, Erode, Tamil Nadu" },
                 { icon: "📱", label: "WhatsApp / Call", value: "+91 95667 57229, +91 95663 57137, +91 95660 01174, +91 73970 78885" },
-                { icon: "📱", label: "Email", value: "learn@gatewaysoftwaresolution.com" },
+                { icon: "📱", label: "Email", value: "learn@gatewaysoftwaresolutions.com" },
                 { icon: "⏰", label: "Mode", value: "Online & Offline" },
                 { icon: "📅", label: "Duration", value: "120 Days (2–3 hrs/day)" },
               ].map((item) => (
